@@ -1,0 +1,108 @@
+
+::-webkit-scrollbar{
+    background: #000000;
+    width: 0%;
+    display: none;
+}
+.button {
+    border: none;
+    color: rgba(248, 248, 248, 0);
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 1px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.button6 {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0.199);
+    border: 0px solid #000000;
+}
+
+.button6:hover {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.24);
+}
+
+.button4 {
+    border-radius: 50px;
+}
+
+h1 {
+    border-radius: 100px;
+}
+
+h3 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 90px;
+}
+
+h4 {
+    font-size: 50px;
+}
+
+h5 {
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(20px) ;
+    border-radius: 22px;
+    padding: 10px;
+    border: 0.5px solid rgb(189, 189, 189);
+    
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+#cursor {
+    pointer-events: none;
+    width: 10px;
+    height: 10px;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 100ms;
+    transition-timing-function: ease-out;
+    pointer-events: none;
+    background-color: unset;
+    mix-blend-mode: difference;
+}
+
+.hoveredCursor {
+    width: 30px !important;
+    height: 30px !important;
+    pointer-events: none;
+}
+
+.button1 {
+    border: none;
+    color: rgba(248, 248, 248, 0.281);
+    padding: 5px 200px;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.button61 {
+    background-color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.199);
+    border: 2px solid #000000;
+}
+
+.button61:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.24);
+}
+
+.button41 {
+    border-radius: 50px;
+}
